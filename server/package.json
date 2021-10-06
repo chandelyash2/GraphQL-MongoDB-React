@@ -1,0 +1,24 @@
+{
+  "name": "graphql-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec  babel-node -- src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.25.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "mongoose": "^6.0.2",
+    "nodemon": "^2.0.12"
+  }
+}
